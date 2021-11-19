@@ -6,33 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valery | Currículum</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/e79242a0b7.js" crossorigin="anonymous"></script>
+    <link href = "https: //fonts.googleapis.com/css2? family = Mukta: wght @ 200 & display = swap "rel =" stylesheet ">
 </head>
 
 <body>
     <header>
-        <figure>
-            <img src="./assets/img/pp.jpg" alt="profile photo" width="auto" height="40%">
-            <figcaption>Valery Solís Ruiz</figcaption>
-            <p>Estudiante</p>
-        </figure>
-        <div>
-            <!--terminar el parrafo SOBRE MI-->
-            <h2>Sobre mí</h2>
-            <p>Soy estudiante en la institución educativa Darío de Bedout, tengo 17 años y…etc </p>
+        <div class="container__header">
+            <figure id="img__profile">
+                <img src="./assets/img/pp.jpg" alt="profile photo">
+            </figure>
+            <div>
+                <b id="name">Valery Solís Ruiz</b>
+                <p>Estudiante</p>
+
+                <h2>Sobre mí</h2>
+                <p>Soy una joven disciplinada, me esmero y dedico en los temas y objetivos que planteo en mi proyecto de vida. 
+                    Me agrada estudiar, aprender cosas nuevas y superarme en mis actividades diarias. 
+                    En mi tiempo libre me gusta ver películas extranjeras.
+                    Como proyecto de vida me he propuesto obtener estudios superiores y poseo las habilidades para lograrlo. 
+                    En la actualidad estoy cursando la medio técnica en asistencia administrativa y hago parte de Jovenes CreaTIvos 2021, 
+                    ambas actividades que encuentro gratificantes y de las cuales he fortalecido varias habilidades.
+                </p>
+            </div>
         </div>
     </header>
 
-    <aside>
-        <section>
-            <h3>Habilidades</h3>
-            <ul>
-                <li>Capacidad para trabajar en equipo</li>
-                <li>Empatía con los demás</li>
-                <li>Compromiso</li>
-                <li></li>
-            </ul>
-        </section>
-    </aside>
+    <div class="container">
+        <aside>
+            <!--left column-->
+            <section class="letf__column">
+                <h3>Habilidades personales</h3>
+                <ul>
+                    <li>Compromiso</li>
+                    <li>Creatividad</li>
+                    <li>Inteligencia emocional</li>
+                    <li>Resolución de problemas</li>
+                    <li>Juicio y toma de desiciones</li>
+                </ul>
+            <section>
+                 <!--Progress bar with percentage-->
+                <h3>idiomas</h3>
+                <div class="progress__bar"></div>
+                <ul>
+                    <li>Inglés</li>
+                    <progress max="100" value="48"></progress>
+                    <li>Español-Nativo</li>
+                    <progress max="100" value="100"></progress>
+                    <li>Coreano</li>
+                    <progress max="100" value="20"></progress>
+                </ul>
+            </section>
+            <section>
+                <h3>Contactos</h3>
+                <!--Apps icons with Font Awesome-->
+                <div class="social__media">
+                    <ul>
+                        <li>
+                            <a href="mailto:valery.solis@envigado.edu.co">
+                                <i class="far fa-envelope"></i>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/valerysolisruiz/?hl=es" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.facebook.com/valery2ruiz/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="tel:+573234537080">
+                                <i class="fas fa-phone-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </aside>
+        <main>
+            <section>
+                <h2>Experiencia</h2>
+            </section>
+            <section>
+                <h2>Estudios actuales</h2>
+            </section>
+        </main>
+
+    </div>
     
 </body>
 </html>
